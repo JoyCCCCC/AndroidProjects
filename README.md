@@ -20,7 +20,6 @@
 - Implements a composable `ColorCard(color, label)` that shows a colored card with centered text.
 - The screen displays **three cards** using **three different colors**.
 - Demonstrates multiple modifier combinations: `padding`, `background`, `border`, `size` (at least two different combinations).
-- Includes a `@Preview` to visualize the cards without running the app.
 
 ### 2) ToggleCard
 - Implements a composable `ToggleCard()` that shows a tappable card whose message **toggles on click**  
