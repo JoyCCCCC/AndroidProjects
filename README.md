@@ -9,8 +9,7 @@
   `KotlinPracticeScreen/app/src/main/java/com/example/kotlinpracticescreen/MainActivity.kt`
 
 - **ToggleCard**  
-  `ToggleCard/app/src/main/java/com/example/togglecard/MainActivity.kt`  
-  *(package name may differ; open the project in Android Studio to confirm the exact package path.)*
+  `ToggleCard/app/src/main/java/com/example/togglecard/MainActivity.kt`
 
 ---
 
