@@ -83,5 +83,12 @@
 
 - Android Studio Narwhal 3   
 - Minimum SDK: API 24 (Android 7.0, Nougat) 
+- Running devices: Medium Phone API 36.0
 
 ---
+
+## How to Run
+
+1. Clone the repo.
+2. Open the project you want in **Android Studio**.
+3. Select the proper device and click **Run ▶️**.
