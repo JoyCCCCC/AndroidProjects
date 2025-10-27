@@ -87,11 +87,18 @@
   - Includes a **Snackbar** notification for each lifecycle transition, which can be toggled on/off via a Switch in the top bar.
 
 ### 9) Counter++  
-   - Implements a reactive counter using **ViewModel** and **StateFlow** for unidirectional data flow.  
-   - All UI updates are driven by the ViewModel’s state, which manages manual actions (+1, -1, Reset) and a coroutine-based **auto-increment job** that runs every few seconds when Auto mode is on.  
-   - The app includes a **Settings screen** where users can adjust the auto-increment interval.
-   - The main screen collects state with `collectAsState()` and displays live updates.
+- Implements a reactive counter using **ViewModel** and **StateFlow** for unidirectional data flow.  
+- All UI updates are driven by the ViewModel’s state, which manages manual actions (+1, -1, Reset) and a coroutine-based **auto-increment job** that runs every few seconds when Auto mode is on.  
+- The app includes a **Settings screen** where users can adjust the auto-increment interval.
+- The main screen collects state with `collectAsState()` and displays live updates.
 
+### 10) Temperature Dashboard
+
+- Uses **ViewModel** and **StateFlow** to manage and stream reactive temperature data updates.
+- A coroutine generates random temperature readings every 2 seconds (65°F–85°F) and keeps only the latest 20 readings.  
+- The ViewModel computes real-time **current**, **average**, **min**, and **max** values directly from the StateFlow state.
+- The Compose UI collects the StateFlow with `collectAsState()`, showing a live **list**, **stat summary**, and a **Canvas-based line chart**.  
+- Includes a **pause/resume switch** to control data streaming dynamically.
 
 
 ---
