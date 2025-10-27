@@ -26,6 +26,15 @@
 - **ThemedForm**  
   `ThemedForm/app/src/main/java/com/example/themedform/MainActivity.kt`
 
+- **LifeTracker**  
+  `LifeTracker/app/src/main/java/com/example/lifetracker/MainActivity.kt`
+
+- **CounterPP**  
+  `CounterPP/app/src/main/java/com/example/counterpp/MainActivity.kt`
+
+- **TempDashboard**  
+  `TempDashboard/app/src/main/java/com/example/tempdashboard/MainActivity.kt`
+
 ---
 
 ## Project Overviews
