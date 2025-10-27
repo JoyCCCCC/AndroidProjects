@@ -77,6 +77,16 @@
 - Adds basic **validation**:
   - If either field is empty on submit, an **error message** is shown below the field.
 
+### 8) LifeTracker  
+- Builds an app called **LifeTracker** that logs and displays Android lifecycle events in real time.  
+  - Captures events via a **LifecycleEventObserver** and logs each transition with a timestamp and color code.
+  - Uses a **ViewModel** to store a list of lifecycle events (e.g., onCreate, onStart, onResume) in a `StateFlow<List<LifeEvent>>`.  
+  - Displays real-time updates in a **LazyColumn**, showing event name, time, and colored indicator.  
+  - Persists logs across configuration changes (e.g., rotation) using ViewModel state.  
+  - Shows the current lifecycle state at the top with a colored status card.  
+  - Includes a **Snackbar** notification for each lifecycle transition, which can be toggled on/off via a Switch in the top bar.
+
+
 ---
 
 ## Requirements
