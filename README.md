@@ -86,6 +86,13 @@
   - Shows the current lifecycle state at the top with a colored status card.  
   - Includes a **Snackbar** notification for each lifecycle transition, which can be toggled on/off via a Switch in the top bar.
 
+### 9) Counter++  
+   - Implements a reactive counter using **ViewModel** and **StateFlow** for unidirectional data flow.  
+   - All UI updates are driven by the ViewModel’s state, which manages manual actions (+1, -1, Reset) and a coroutine-based **auto-increment job** that runs every few seconds when Auto mode is on.  
+   - The app includes a **Settings screen** where users can adjust the auto-increment interval.
+   - The main screen collects state with `collectAsState()` and displays live updates.
+
+
 
 ---
 
